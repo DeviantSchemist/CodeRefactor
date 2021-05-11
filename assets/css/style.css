@@ -1,12 +1,18 @@
+/* selects all elements to reset styling */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets body of website to that color */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* styles the overall text on the upper left of the site */
 
 header {
     padding: 20px;
@@ -15,14 +21,20 @@ header {
     color: #ffffff;
 }
 
+/* makes display property for h1 element in the header */
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* makes the 'SEO' part of the header h1 be this color */
+
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* styles the div elements that are within the header */
 
 header div {
     padding-top: 15px;
@@ -32,23 +44,33 @@ header div {
     font-size: 20px;
 }
 
+/* makes the ul elements in the header have no list styling */
+
 header div ul {
     list-style-type: none;
 }
+
+/* styles the bulleted list on the upper right of website */
 
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* gets rid of the underlining for links and makes the link texts have this color */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* makes the paragraph texts have this font size */
+
 p {
     font-size: 16px;
 }
+
+/* styles the huge image */
 
 .hero {
     height: 800px;
@@ -59,11 +81,15 @@ p {
     background-position: center;
 }
 
+/* styles the bulk of the site's content after the huge image */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* styles the first content box under the huge image */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -74,14 +100,20 @@ p {
     color: #ffffff;
 }
 
+/* styles the first content box under the huge image */
+
 .search-engine-optimization img {
     max-height: 200px;
 }
+
+/* styles the first content box under the huge image */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* styles the second content box under the huge image */
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -92,14 +124,20 @@ p {
     color: #ffffff;
 }
 
+/* styles the second content box under the huge image */
+
 .online-reputation-management img {
     max-height: 200px;
 }
+
+/* styles the second content box under the huge image */
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* styles the third content box under the huge image */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -110,24 +148,34 @@ p {
     color: #ffffff;
 }
 
+/* styles the third content box under the huge image */
+
 .social-media-marketing img {
     max-height: 200px;
 }
+
+/* styles the third content box under the huge image */
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* styles the right side bar's location */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* styles the right side bar's location */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
+/* styles the content inside the side bar */
 
 .benefits {
     margin-right: 20px;
@@ -140,35 +188,21 @@ p {
     background-color: #2589bd;
 }
 
+/* styles the first element in the side bar */
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* styles the first element in the side bar */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* styles the first element in the side bar */
 
 .benefit-lead img {
     display: block;
@@ -176,11 +210,43 @@ p {
     max-width: 150px;
 }
 
+/* styles the second element in the side bar */
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* styles the second element in the side bar */
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* styles the third element in the side bar */
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* styles the third element in the side bar */
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* styles the third element in the side bar */
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* styles the third element in the side bar */
 
 .benefit-cost img {
     display: block;
@@ -188,6 +254,7 @@ p {
     max-width: 150px;
 }
 
+/* styles the footer element */
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +262,7 @@ footer {
     text-align: center;
 }
 
+/* makes the h2 tag in the footer have this font size */
 footer h2 {
     font-size: 20px;
 }
